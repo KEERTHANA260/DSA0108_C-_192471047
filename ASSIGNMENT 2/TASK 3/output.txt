@@ -1,0 +1,6 @@
+charge(2): 0.1
+charge(2.0f): 100
+grams: 75
+express: 130
+insured: 120
+Parcel: 200
