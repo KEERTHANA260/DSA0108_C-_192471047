@@ -1,0 +1,12 @@
+Account 123456 balance 1150
+Recent transactions:
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
