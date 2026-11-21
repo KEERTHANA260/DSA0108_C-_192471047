@@ -1,0 +1,5 @@
+Billing error: negative charge
+Billing error: claim exceeds cover
+Billing error: unknown package: UNKNOWN
+Billing error: patient record not found
+Destructors should be noexcept; allocation failures use std::bad_alloc.
