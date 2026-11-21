@@ -1,0 +1,8 @@
+OP Ravi: 1700
+IP Meena: 47500
+CorporatePackage Anu: 18000
+Total: 67200
+CorporateTieUp covers Ravi: 1530
+CorporateTieUp covers Meena: 42750
+CorporateTieUp covers Anu: 16200
+Insurance covers first bill: 1700
