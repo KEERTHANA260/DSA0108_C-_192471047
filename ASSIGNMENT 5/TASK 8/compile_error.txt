@@ -1,0 +1,38 @@
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp: In function ‘int main()’:
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp:19:48: error: ‘unique_ptr’ was not declared in this scope
+   19 |   vector<BillData> data;data.reserve(n);vector<unique_ptr<Base>> poly;poly.reserve(n);
+      |                                                ^~~~~~~~~~
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp:6:1: note: ‘std::unique_ptr’ is defined in header ‘<memory>’; this is probably fixable by adding ‘#include <memory>’
+    5 | #include <iomanip>
+  +++ |+#include <memory>
+    6 | #include <string>
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp:19:59: error: template argument 1 is invalid
+   19 |   vector<BillData> data;data.reserve(n);vector<unique_ptr<Base>> poly;poly.reserve(n);
+      |                                                           ^~~~
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp:19:59: error: template argument 2 is invalid
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp:19:63: error: expected unqualified-id before ‘>’ token
+   19 |   vector<BillData> data;data.reserve(n);vector<unique_ptr<Base>> poly;poly.reserve(n);
+      |                                                               ^~
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp:19:71: error: ‘poly’ was not declared in this scope
+   19 |   vector<BillData> data;data.reserve(n);vector<unique_ptr<Base>> poly;poly.reserve(n);
+      |                                                                       ^~~~
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp:20:81: error: ‘make_unique’ was not declared in this scope
+   20 |   for(int i=0;i<n;++i){if(i%2==0){data.push_back({0,500,1200,0});poly.push_back(make_unique<OP>(500,1200));}else{data.push_back({1,2500,0,3});poly.push_back(make_unique<IP>(2500,3));}}
+      |                                                                                 ^~~~~~~~~~~
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp:20:81: note: ‘std::make_unique’ is defined in header ‘<memory>’; this is probably fixable by adding ‘#include <memory>’
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp:20:95: error: expected primary-expression before ‘>’ token
+   20 |   for(int i=0;i<n;++i){if(i%2==0){data.push_back({0,500,1200,0});poly.push_back(make_unique<OP>(500,1200));}else{data.push_back({1,2500,0,3});poly.push_back(make_unique<IP>(2500,3));}}
+      |                                                                                               ^
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp:20:97: warning: left operand of comma operator has no effect [-Wunused-value]
+   20 |   for(int i=0;i<n;++i){if(i%2==0){data.push_back({0,500,1200,0});poly.push_back(make_unique<OP>(500,1200));}else{data.push_back({1,2500,0,3});poly.push_back(make_unique<IP>(2500,3));}}
+      |                                                                                                 ^~~
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp:20:158: error: ‘make_unique’ was not declared in this scope
+   20 |   for(int i=0;i<n;++i){if(i%2==0){data.push_back({0,500,1200,0});poly.push_back(make_unique<OP>(500,1200));}else{data.push_back({1,2500,0,3});poly.push_back(make_unique<IP>(2500,3));}}
+      |                                                                                                                                                              ^~~~~~~~~~~
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp:20:158: note: ‘std::make_unique’ is defined in header ‘<memory>’; this is probably fixable by adding ‘#include <memory>’
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp:20:172: error: expected primary-expression before ‘>’ token
+   20 |   for(int i=0;i<n;++i){if(i%2==0){data.push_back({0,500,1200,0});poly.push_back(make_unique<OP>(500,1200));}else{data.push_back({1,2500,0,3});poly.push_back(make_unique<IP>(2500,3));}}
+      |                                                                                                                                                                            ^
+/mnt/data/assignment5_repo/Task08_B3_Cost_Comparison/code.cpp:20:174: warning: left operand of comma operator has no effect [-Wunused-value]
+   20 |   for(int i=0;i<n;++i){if(i%2==0){data.push_back({0,500,1200,0});poly.push_back(make_unique<OP>(500,1200));}else{data.push_back({1,2500,0,3});poly.push_back(make_unique<IP>(2500,3));}}
+      |                                                                                                                                                                              ^~~~

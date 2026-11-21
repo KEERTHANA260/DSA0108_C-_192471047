@@ -1,0 +1,7 @@
+Bills 1000: switch=0.002 ms, virtual=0.004 ms, totals=9200.000 (first pair)
+Bills 1000000: switch=4.268 ms, virtual=5.390 ms, totals=9200.000 (first pair)
+Bills 10000000: switch=33.708 ms, virtual=52.390 ms, totals=9200.000 (first pair)
+Invalid 0%: return-code=0.229 ms, exceptions=0.582 ms
+Invalid 1%: return-code=0.331 ms, exceptions=12.373 ms
+Invalid 50%: return-code=0.297 ms, exceptions=534.329 ms
+Timing varies by CPU, compiler and system load.
