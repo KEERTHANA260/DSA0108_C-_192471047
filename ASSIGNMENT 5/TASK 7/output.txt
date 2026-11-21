@@ -1,0 +1,8 @@
+approved 40000
+audit: exceeds cover
+claim rejected: exceeds cover
+error: negative amount
+input error: stod
+resource released
+allocation failure caught (controlled test)
+top-level catch(...) handled an unknown error
