@@ -1,0 +1,4 @@
+SelfPay covers: 10000
+Insurance covers: 8000
+GovernmentScheme covers: 6000
+CorporatePayer covers: 8000
