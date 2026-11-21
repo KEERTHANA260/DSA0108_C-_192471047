@@ -1,0 +1,8 @@
+OP Ravi: 1700
+IP Meena: 47500
+DayCare Arun: 18000
+Emergency Sara: 5000
+Grand total: 72200
+SelfPay total covered: 72200
+Insurance total covered: 57760
+Government total covered: 36700
